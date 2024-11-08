@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", system-ui;
+    box-sizing: border-box;
+    text-decoration: wavy;
+}
+
+
+/* Basic Styles for Page Layout */
+
+.auth-page {
+    background-color: #f0f4f8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    height: 90px;
+    background-color: rgb(249, 250, 251);
+    display: flex;
+    border-bottom: 1px solid rgb(81, 81, 219);
+}
+
+.left img {
+    height: 70px;
+    width: 70px;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+
+.subl {
+    display: flex;
+    margin-left: 30%;
+}
+
+.subl h1,
+#slo {
+    text-align: center;
+}
+
+.subl h1 {
+    color: rgb(6, 6, 109);
+    font-weight: 700;
+}
+
+#slo {
+    color: rgb(6, 6, 109);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+/* Auth Container Styles */
+
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: radial-gradient(circle at 12.3% 19.3%, rgba(195, 196, 241, 0.6) 0%, rgba(95, 209, 249, 0.6) 100.2%);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    animation: fadeInUp 1s ease;
+}
+
+.auth-container h2 {
+    margin-bottom: 20px;
+    color: #0b3d91;
+    text-align: center;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #0b3d91;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.submit-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-group button {
+    background-image: radial-gradient(circle at 12.3% 19.3%, rgba(195, 196, 241, 0.8) 0%, rgba(95, 209, 249, 0.8) 100.2%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.submit-group button:hover {
+    background-color: darkblue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.auth-link {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.auth-link a {
+    color: #0b3d91;
+    text-decoration: none;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}
+
+
+/* Background Logo */
+
+.logo-bg {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: slideDown 1s ease;
+}
+
+.logo-bg img {
+    width: 80px;
+    opacity: 0.1;
+}
+
+
+/* Animations */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

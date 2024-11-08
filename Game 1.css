@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+.navbar{
+
+    height: 90px;
+    background-color: rgb(249, 250, 251);
+    display: flex;
+
+    border-bottom: 1px solid rgb(81, 81, 219);
+    /* border: 2px solid red; */
+    /* justify-content: space-around; */
+    
+}
+.left img{
+
+    height: 70px;
+    width: 70px;
+    margin-left: 3%;
+    margin-top: 7%;
+}
+/* .left{
+
+    width: 50%;
+    height: 90px;
+    border: 1px solid rgb(187, 255, 0);
+    margin-left: 30%;
+  clear: right;
+     float: left;
+} */
+.subl{
+    /* border: 1px solid black; */
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    width: 50%;
+}
+
+.subl h1,h5{
+
+    text-align: center;
+
+}
+
+.right{
+    width: 30%;
+    /* border: 1px solid rgb(58, 47, 47); */
+    /* float: right; */
+    margin-top: 1%;
+}
+.subr{
+    display: flex;
+    flex-direction:row-reverse;
+   
+    
+}
+
+
+.name{
+    margin-top: -1%;
+}
+
+.name h1{
+
+    color: #150052;
+    font-weight: 700;
+}
+#slo{
+    color: #150052;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: -20px;
+}
+.rbutton{
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.button{
+    margin: 2%;
+    padding: 1%;
+   
+}
+.button a{
+    text-decoration: none;
+    padding: 4px;
+    /* background-color: rgb(143, 143, 247); */
+    color: #150052;
+    border-radius: 5px;
+    
+    font-size: 13px;
+}
+.button a:hover{
+
+    color: white;
+    background-color: #150052;
+    box-shadow: 3px 3px 3px rgb(176, 175, 175);
+}
+#login{
+
+    margin-left: 3%;
+}
+.profile img{
+
+    height: 35px;
+    width: 37px;
+  
+
+}
+.nav1{
+
+    
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: #150052;
+    /* color: white; */
+    
+    
+    
+}
+
+.option{
+
+    
+    color: white;
+
+}
+
+/* .nav1{
+
+    float: left;
+} */
+
+/* .subnav2{
+
+    float: left;
+    
+} */
+
+ /* .nav2 {
+    background-color: darkblue;
+    padding: 10px;
+    float: left;
+    
+}
+
+.nav2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav2 ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    
+}
+
+.nav2 ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+.subnav2{
+
+    border: 1px solid white;
+    width: 100%;
+
+}  */
+
+.option{
+
+    padding: 15px 80px;
+    margin: 0px 12px;
+    font-size: 13px;
+    
+}
+
+.option a{
+
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    /* background-color: aquamarine; */
+    border-radius: 8px;
+    
+}
+.option a:hover{
+    background-color: rgb(236, 244, 252);
+    color: blue;
+    /* box-shadow: 3px 3px 4px rgb(203, 201, 201); */
+}
+
+
+.main-container {
+    margin: 60px auto;
+    padding: 20px;
+    max-width: 1000px;
+    background-image: radial-gradient(circle at 12.3% 19.3%, rgba(195, 196, 241, 0.2) 0%, rgba(95, 209, 249, 0.2) 100.2%);
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.activities-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #150052;
+    margin-top: 0px;
+    margin-bottom: 70px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 270px;
+}
+
+.activity {
+    flex: 1;
+    margin: 0 10px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    color: #150052;
+    
+    background-color: white;
+}
+
+.activity p{
+    font-weight: 550;
+    font-size: 14px;
+    margin-top: 35px;
+    margin-left: -7px;
+}
+.activity ul{
+    margin-top: -40px;
+    margin-left: -20px;
+    text-align: left;
+}
+.activity li{
+    font-weight: 500;
+    font-size: 13px;
+
+}
+.game1HeadAnimation{
+    display: flex;
+}
+.activity img {
+    width: 70%;
+    border-radius: 15px;
+    height: 150px;
+    margin-top: 20px;
+}
+.StepsAni{
+    height: 10%;
+    width: 10%;
+}
+.activity a {
+    display: block;
+    text-decoration: none;
+}

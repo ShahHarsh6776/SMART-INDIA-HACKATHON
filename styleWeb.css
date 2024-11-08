@@ -1,0 +1,79 @@
+#img {
+    height: 40px;
+  }
+  * {
+    background-image : radial-gradient(circle at 12.3% 19.3%, rgb(195, 196, 241) 0%, rgb(95, 209, 249) 100.2%);
+  }
+  
+  .logo {
+    background-color: snow;
+  }
+  
+  .logo a {
+    background-color: snow;
+    color: rgb(77, 77, 77);
+    text-decoration: none;
+  }
+  
+  menu {
+    background-color: snow;
+  }
+  
+  .about a {
+    background-color: snow;
+    color: rgb(77, 77, 77);
+  }
+  
+  .logo label {
+    padding: 0px 10px 0px;
+    font-weight: 700;
+  }
+  
+  .about {
+    background-color: snow;
+  }
+  
+  .upper {
+    justify-content: space-between;
+    align-items: first baseline;
+    background-color: snow;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .upper a {
+    background-color: snow;
+  }
+  
+  .log {
+    padding: 0px 10px 0px;
+    background-color: snow;
+    justify-content: space-between;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  .upper a label {
+    background-color: snow;
+    color: rgb(77, 77, 77);
+    justify-content: right;
+    font-size: 14px;
+  }
+  
+  .log a {
+    text-decoration: none;
+  }
+  
+  .upper img {
+    height: 100px;
+    padding: 0px 10px 0px;
+    background-color: snow;
+  }
+  
+  .int {
+    background-image: url("wp4489783-long-wallpapers.jpg");
+    width: 100%;
+  }

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="auth-page">
+        <header class="header"></header>
+        <nav class="navbar">
+            <div class="left">
+                <img src="final_logo__1_-removebg-preview.png" alt="Logo">
+            </div>
+            <div class="subl">
+                <div class="name">
+                    <h1>CITIZEN AND CONSTITUTION</h1>
+                    <h5 id="slo">Citizen first, Constitution always</h5>
+                </div>
+            </div>
+        </nav>
+
+        <div class="auth-container">
+            <h2>Create Your Account</h2>
+            <form class="auth-form" action="signup_process.php" method="POST">
+                <div class="input-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="submit-group">
+                    <button type="submit"><a href="index.html">Sign up</a> </button>
+                </div>
+                <p class="auth-link">Already have an account? <a href="login.html">Login</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
